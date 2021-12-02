@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<!--metatextblock-->
+    <title>Каталог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="" />
+    <!--/metatextblock-->
+
+    <link rel="icon" href="" type="image/x-icon" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <link rel="icon" type="image/png" href="" sizes="16x16" />
+    <link rel="icon" type="image/png" href="" sizes="32x32" />
+    <link rel="icon" type="image/png" href="" sizes="96x96" />
+    <link rel="icon" type="image/png" href="" sizes="120x120" />
+    <link rel="icon" type="image/png" href="" sizes="180x180" />
+
+    <meta name="robots" content="noindex" />
+
+	<!--assets-->
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/52fa4440e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10 col-md-6 col-lg-6 col-xl-2 header-logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="Transformica">
+                    </a>
+                </div>
+                <div id="headerMenu" class="col-xl-10 header-menu-info">
+                    <ul class="menu">
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Каталог механизмов</a></li>
+                        <li><a href="">Каталог мебели</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                    <div class="header-contacts">
+                        <a href="tel:+79876543210" class="phone">
+                            <img src="images/phone.svg" alt="Phone">
+                            <span>+7</span><span>(987)</span>654-32-10
+                        </a>
+                        <a href="mailto:mail@transformica.ru" class="e-mail">
+                            <img src="images/e-mail.svg" alt="e-mail">
+                            mail@transformica.ru
+                        </a>
+                        <a class="site-btn d-xl-none" data-fancybox href="#callPopap">
+                            Заказать звонок
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2 col-md-6 col-lg-6 burger-block">
+                    <a id="headerBurger" href="javascript:void(0)" class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-sm-block col-sm-10 col-md-10 col-lg-10 items">
+                    <span>
+                        <a href="">
+                            Главная
+                        </a>
+                    </span>
+                    <span>
+                        Каталог механизмов
+                    </span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 back">
+                    <a href="">
+                        Назад
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="row" id="row-catalog">
+                <div class="col-lg-12 catalog-title">
+                    <h1>
+                        Каталог механизмов
+                    </h1>
+                </div>
+                <div class="col-lg-12 filter">
+                    <div class="filter_select">
+                        <select name="" id="">
+                            <option value="">Все серии</option>
+                            <option value="">Серия 1</option>
+                            <option value="">Серия 2</option>
+                        </select>
+                    </div>
+                    <div class="filter_select">
+                        <select name="" id="">
+                            <option value="">Все размеры</option>
+                            <option value="">100</option>
+                            <option value="">200</option>
+                        </select>
+                    </div>
+                    <div class="filter_select">
+                        <select name="" id="">
+                            <option value="">Фильтр</option>
+                            <option value="">От дорогих к дешевым</option>
+                            <option value="">От дешевых к дорогим</option>
+                        </select>
+                    </div>
+                    <div class="filter_btn">
+                        <button class="site-btn">
+                            Показать
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 catalog-items">
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2841
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-3.png" alt="Газлифт Stabilus И2837">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2837
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2841
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-3.png" alt="Газлифт Stabilus И2837">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2837
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-3.png" alt="Газлифт Stabilus И2837">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2837
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2841
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2839
+                        </b>
+                    </a>
+
+                    <a href="" class="item">
+                        <div>
+                            <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                        </div>
+                        <b>
+                            Газлифт Stabilus И2841
+                        </b>
+                    </a>
+                </div>
+
+                <div class="col-lg-12 catalog-recomend">
+                    <div class="title">
+                        <h2>
+                            Рекомендуем
+                        </h2>
+                    </div>
+                    <div id="recomendSlider" class="catalog-recomend_slider">
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2839
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2841
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-3.png" alt="Газлифт Stabilus И2837">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2837
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2839
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-1.png" alt="Газлифт Stabilus И2839">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2839
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-2.png" alt="Газлифт Stabilus И2841">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2841
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-3.png" alt="Газлифт Stabilus И2837">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2837
+                                </b>
+                            </a>
+                        </div>
+
+                        <div class="catalog-recomend_slider__item">
+                            <a href="">
+                                <div>
+                                    <img src="images/product-4.png" alt="Газлифт Stabilus И2839">
+                                </div>
+                                <b>
+                                    Газлифт Stabilus И2839
+                                </b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 catalog-where">
+                    <div class="title">
+                        <h2>
+                            Где купить
+                        </h2>
+                    </div>
+                    <div class="contants">
+                        <div>
+                            <a href=""><img src="images/marker.svg" alt="map">197022, Санкт-Петербург, ул. Ленина, 61</a>
+                            <a class="phone" href="tel:+79876543210"><img src="images/phone.svg" alt="phone"><span>+7</span><span>(987)</span>654-32-10</a>
+                            <a href="mailto:mail@transformica.ru"><img src="images/e-mail.svg" alt="e-mail">mail@transformica.ru</a>
+                        </div>
+                        <div>
+                            <a href=""><img src="images/vk.svg" alt="vk"></a>
+                            <a href=""><img src="images/telegram.svg" alt="telegram"></a>
+                            <a href=""><img src="images/skype.svg" alt="skype"></a>
+                            <a href=""><img src="images/whatsApp.svg" alt="whatsapp"></a>
+                        </div>
+                    </div>
+                    <div class="form-block">
+                        <h2>
+                            Напишите нам
+                        </h2>
+                        <form action="">
+                            <div class="form-container">
+                                <div class="form-top">
+                                    <input type="text" placeholder="Ваше имя *">
+                                    <input type="text" placeholder="Телефон *">
+                                    <input type="text" placeholder="E-mail *">
+                                </div>
+                                <div class="form-textarea">
+                                    <textarea name="" id="" placeholder="Ваше сообщение *"></textarea>
+                                </div>
+                                <div class="form-bottom">
+                                    <div class="btn">
+                                        <button class="site-btn" type="submit">Отправить</button>
+                                    </div>
+                                    <div class="iagree">
+                                        <div>
+                                            <input type="checkbox">
+                                            <label></label>
+                                        </div> 
+                                        
+                                        <span>
+                                            Согласие на обработку персональных данных  в соответствии с <a href="">политикой конфиденциальности</a>.
+                                        </span>
+                                    </div>
+                                    <div class="star">
+                                        <span>*</span> 
+                                        <span>Поля, помеченные звёздочкой, являются обязательными для заполнения.</span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287322.7351918515!2d37.39741766721869!3d55.763559420514206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sua!4v1619375009363!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 item">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="Transformica">
+                        </div>
+                        <div class="social">
+                            <a href=""><img src="images/vk.svg" alt="vk"></a>
+                            <a href=""><img src="images/telegram.svg" alt="telegram"></a>
+                            <a href=""><img src="images/skype.svg" alt="skype"></a>
+                            <a href=""><img src="images/whatsApp.svg" alt="whatsapp"></a>
+                        </div>
+                        <div class="contacts">
+                            <a href=""><img src="images/map.svg" alt="map">197022, Санкт-Петербург, ул. Ленина, 61</a>
+                            <a class="phone" href="tel:+79876543210"><img src="images/phone.svg" alt="phone"><span>+7</span><span>(987)</span>654-32-10</a>
+                            <a href="mailto:mail@transformica.ru"><img src="images/e-mail.svg" alt="e-mail">mail@transformica.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 item">
+                        © «Transformica», 2021. Все права защищены.
+                        <br>
+                        Разработка: <a href="">Integrator.Digital</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!--Bootstrap-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
